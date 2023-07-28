@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" class="astro-37FXCHFA">
+	<head>
+		<meta charset="UTF-8">
+<meta name="description" property="og:description" content="The effect of student salaried work on academic success
+">
+<meta name="viewport" content="width=device-width">
+<meta name="generator" content="Astro v2.8.5">
+<title>SAS programming</title>
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400&family=Rubik:wght@500;600&display=swap" rel="stylesheet">
+
+<script>
+	// This code is inlined in the head to make dark mode instant & blocking.
+	const getThemePreference = () => {
+		if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+			return localStorage.getItem('theme');
+		}
+		return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+	};
+	const isDark = getThemePreference() === 'dark';
+	document.documentElement.classList[isDark ? 'add' : 'remove']('theme-dark');
+
+	if (typeof localStorage !== 'undefined') {
+		// Watch the document element and persist user preference when it changes.
+		const observer = new MutationObserver(() => {
+			const isDark = document.documentElement.classList.contains('theme-dark');
+			localStorage.setItem('theme', isDark ? 'dark' : 'light');
+		});
+		observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+	}
+</script>
+	<link rel="stylesheet" href="/_astro/404.8e7ccd6e.css" />
+<link rel="stylesheet" href="/_astro/about.8c3abb9f.css" />
+<link rel="stylesheet" href="/_astro/about.93ec11f1.css" />
+<link rel="stylesheet" href="/_astro/index.d2e14741.css" />
+<link rel="stylesheet" href="/_astro/_...slug_.76fb6492.css" /><script type="module">addEventListener("load",()=>document.documentElement.classList.add("loaded"));class i extends HTMLElement{constructor(){super(),this.appendChild(this.querySelector("template").content.cloneNode(!0));const e=this.querySelector("button"),t=document.getElementById("menu-content");t.hidden=!0;const n=s=>{e.setAttribute("aria-expanded",s?"true":"false"),t.hidden=!s};e.addEventListener("click",()=>n(t.hidden));const d=s=>{n(s.matches),e.hidden=s.matches},c=window.matchMedia("(min-width: 50em)");d(c),c.addEventListener("change",d)}}customElements.define("menu-button",i);class r extends HTMLElement{constructor(){super();const e=this.querySelector("button"),t=n=>{document.documentElement.classList[n?"add":"remove"]("theme-dark"),e.setAttribute("aria-pressed",String(n))};e.addEventListener("click",()=>t(!this.isDark())),t(this.isDark())}isDark(){return document.documentElement.classList.contains("theme-dark")}}customElements.define("theme-toggle",r);
+</script></head>
+	<body class="astro-37FXCHFA">
+		<div class="stack backgrounds astro-37FXCHFA">
+			<nav class="astro-DMQPWCEC">
+	<div class="menu-header astro-DMQPWCEC">
+		<a href="/" class="site-title astro-DMQPWCEC">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256" aria-hidden="true" stroke="url(#icon-gradient-rz98q2lx)" fill="url(#icon-gradient-rz98q2lx)" style="--size:1.6em" class="astro-PATNJMLL">
+	<g class="astro-PATNJMLL"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="m80 96 40 32-40 32m56 0h40"/><rect width="192" height="160" x="32" y="48" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16.97" rx="8.5"/></g>
+	<linearGradient id="icon-gradient-rz98q2lx" x1="23" x2="235" y1="43" y2="202" gradientUnits="userSpaceOnUse" class="astro-PATNJMLL">
+				<stop stop-color="var(--gradient-stop-1)" class="astro-PATNJMLL"></stop>
+				<stop offset=".5" stop-color="var(--gradient-stop-2)" class="astro-PATNJMLL"></stop>
+				<stop offset="1" stop-color="var(--gradient-stop-3)" class="astro-PATNJMLL"></stop>
+			</linearGradient>
+</svg>
+			Maxime HERVE
+		</a>
+		<menu-button class="astro-DMQPWCEC">
+			<template class="astro-DMQPWCEC">
+				<button class="menu-button astro-DMQPWCEC" aria-expanded="false">
+					<span class="sr-only astro-DMQPWCEC">Menu</span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256" aria-hidden="true" stroke="currentcolor" fill="currentcolor" class="astro-PATNJMLL">
+	<g class="astro-PATNJMLL"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M40 128h176M40 64h176M40 192h176"/></g>
+	
+</svg>
+				</button>
+			</template>
+		</menu-button>
+	</div>
+	<div id="menu-content" class="astro-DMQPWCEC">
+		<ul class="nav-items astro-DMQPWCEC">
+			<li class="astro-DMQPWCEC">
+						<a class="link astro-DMQPWCEC" href="/">
+							Home
+						</a>
+					</li><li class="astro-DMQPWCEC">
+						<a class="link active astro-DMQPWCEC" href="/work/">
+							Work
+						</a>
+					</li><li class="astro-DMQPWCEC">
+						<a class="link astro-DMQPWCEC" href="/about/">
+							About
+						</a>
+					</li>
+		</ul>
+		<div class="menu-footer astro-DMQPWCEC">
+			<div class="socials astro-DMQPWCEC">
+				<a href="https://www.linkedin.com/in/maxime-herve-05925a144/" class="social astro-DMQPWCEC">
+							<span class="sr-only astro-DMQPWCEC">Linkedin</span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256" aria-hidden="true" stroke="currentcolor" fill="currentcolor" class="astro-PATNJMLL">
+	<g class="astro-PATNJMLL"><rect width="184" height="184" x="36" y="36" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" rx="8"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M120 112v64m-32-64v64m32-36a28 28 0 0 1 56 0v36"/><circle stroke="none" cx="88" cy="80" r="12"/></g>
+	
+</svg>
+						</a>
+			</div>
+
+			<div class="theme-toggle astro-DMQPWCEC">
+				<theme-toggle class="astro-X3PJSKD3">
+	<button class="astro-X3PJSKD3">
+		<span class="sr-only astro-X3PJSKD3">Dark theme</span>
+		<span class="icon light astro-X3PJSKD3"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256" aria-hidden="true" stroke="currentcolor" fill="currentcolor" class="astro-PATNJMLL">
+	<g class="astro-PATNJMLL"><circle cx="128" cy="128" r="60" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M128 36V16M63 63 49 49m-13 79H16m47 65-14 14m79 13v20m65-47 14 14m13-79h20m-47-65 14-14"/></g>
+	
+</svg></span>
+		<span class="icon dark astro-X3PJSKD3"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256" aria-hidden="true" stroke="currentcolor" fill="currentcolor" class="astro-PATNJMLL">
+	<g class="astro-PATNJMLL"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M216 112V64m24 24h-48m-24-64v32m16-16h-32m65 113A92 92 0 0 1 103 39h0a92 92 0 1 0 114 114Z"/></g>
+	
+</svg></span>
+	</button>
+</theme-toggle>
+			</div>
+		</div>
+	</div>
+</nav>
+			
+	<div class="stack gap-20 astro-QWEKCIQP">
+		<div class="stack gap-15 astro-QWEKCIQP">
+			<header class="astro-QWEKCIQP">
+				<div class="wrapper stack gap-2 astro-QWEKCIQP">
+					<a class="back-link astro-QWEKCIQP" href="/work/"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256" aria-hidden="true" stroke="currentcolor" fill="currentcolor" class="astro-PATNJMLL">
+	<g class="astro-PATNJMLL"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M216 128H40m72-72-72 72 72 72"/></g>
+	
+</svg> Work</a>
+					<header class="hero stack gap-4 start astro-BBE6DXRZ">
+	<div class="stack gap-2 astro-BBE6DXRZ">
+		<h1 class="title astro-BBE6DXRZ">SAS programming</h1>
+		
+	</div>
+	
+						<div class="details astro-QWEKCIQP">
+							<div class="tags astro-QWEKCIQP">
+								<div class="pill astro-2QEYWK4B">Design</div><div class="pill astro-2QEYWK4B">Dev</div><div class="pill astro-2QEYWK4B">User Testing</div>
+							</div>
+							<p class="description astro-QWEKCIQP">The effect of student salaried work on academic success
+</p>
+						</div>
+					
+</header>
+				</div>
+			</header>
+			<main class="wrapper astro-QWEKCIQP">
+				<div class="stack gap-10 content astro-QWEKCIQP">
+					<img src="/assets/stock-1.jpg" alt="Iridescent ripples of a bright blue and pink liquid" class="astro-QWEKCIQP">
+					<div class="content astro-QWEKCIQP">
+						<p style="text-align: justify;"><b>Objective: </b>In my previous professional experience with Les Grimpeurs, I had the opportunity to dissect the links between the economic situation in the USA and the financial support given to young Americans aspiring to a promising career. This prior experience fueled my curiosity to understand these crucial issues. I then set out to understand the reasons why French students choose to do paid work during their studies, whether or not in addition to receiving a scholarship, and what impact this has on their academic success.
+While many students juggle academic responsibilities, they are also faced with the need to support themselves financially. However, a dilemma emerges: how to reconcile economic imperatives with academic commitment and ambitions for success?</p>
+<img src="/assets/as-var.JPG">
+<p style="text-align: justify;"><b>The Data: </b>Throughout this captivating study, we'll explore data from a sample of 46,340 students enrolled in French higher education between 2015 and 2016 and who responded to the L'OVE (Observatoire de la vie étudiante) survey. We will examine the consequences of this delicate balance between professional obligations and educational ambitions using the data provided by this survey. We therefore have a sample of 46340 observations and 15 columns with relevant control variables, as shown above.</p>
+<img src="/assets/as-clean.JPG">
+<p style="text-align: justify;"><b>Preparation of the database: </b>I carried out this study using SAS only. First, I perform initial data cleaning and processing operations to prepare the database for analysis. For example, in the image above, you can see that I create indicator variables for study-related jobs and non-study-related jobs, classifying them according to their weekly frequency. Or I organize individuals into different age brackets to facilitate statistical analysis. By adding the removal of extreme or missing values, this preparatory process will enable more in-depth analysis of the effect of student employment on academic achievement.</p>
+<h5>Descriptive statistics</h5>
+
+
+
+    <title>Afficher une image en grand avec Lightbox et un curseur personnalisé</title>
+    <style>
+        /* Styles pour la lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+        }
+        .lightbox img {
+            display: block;
+            margin: 50px auto; /* Ajustez la marge pour centrer l'image */
+            max-width: 90%;
+            max-height: 80%;
+        }
+        /* Style pour le bouton de fermeture */
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+
+
+  <!-- Insérez l'image en utilisant la balise <img> avec les attributs onclick et onmouseover -->
+  <img src="/assets/as-sd1.JPG" alt="Description de l&#x27;image" onclick="openLightbox(this)" onmouseover="setHandCursor(this)">
+  <!-- Lightbox -->
+  <div class="lightbox" onclick="closeLightbox()">
+        <span class="close-btn">×</span>
+        <img src="" alt="Image en grand">
+    </div>
+   <!-- Script JavaScript pour gérer la lightbox et le curseur personnalisé -->
+   <script>
+        function openLightbox(image) {
+            var lightbox = document.querySelector(".lightbox");
+            var imageToShow = lightbox.querySelector("img");
+            imageToShow.src = image.src;
+            lightbox.style.display = "block";
+        }
+
+        function closeLightbox() {
+            var lightbox = document.querySelector(".lightbox");
+            lightbox.style.display = "none";
+        }
+
+        function setHandCursor(image) {
+            image.style.cursor = "pointer";
+        }
+    </script>
+
+
+<p style="text-align: justify;"><b>interpretations: </b>This table provides an overview of our sample and study population, taking into account student work, success in the first semester, as well as gender and age. Around 80% of students passed their first semester, while 20% unfortunately failed. Of these, the majority (68%) do not work outside their studies. Of those students who have a salaried job unrelated to their studies, 3.87% work full-time, 4.95% more than half-time, 9.45% less than half-time and 13.11% occasionally.
+As for the composition of the group studied, women represent 63.40% of the sample, while men make up 36.60%. The age of the students falls into three categories, with the 19-20 age group being the largest (36%), followed by the 21-22 age group (25.80%) and the 16-18 age group (22.38%).</p>
+
+
+
+    <title>Afficher une image en grand avec Lightbox et un curseur personnalisé</title>
+    <style>
+        /* Styles pour la lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+        }
+        .lightbox img {
+            display: block;
+            margin: 50px auto; /* Ajustez la marge pour centrer l'image */
+            max-width: 90%;
+            max-height: 80%;
+        }
+        /* Style pour le bouton de fermeture */
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+
+
+  <!-- Insérez l'image en utilisant la balise <img> avec les attributs onclick et onmouseover -->
+  <img src="/assets/as-sd2.JPG" alt="Description de l&#x27;image" onclick="openLightbox(this)" onmouseover="setHandCursor(this)">
+  <!-- Lightbox -->
+  <div class="lightbox" onclick="closeLightbox()">
+        <span class="close-btn">×</span>
+        <img src="" alt="Image en grand">
+    </div>
+   <!-- Script JavaScript pour gérer la lightbox et le curseur personnalisé -->
+   <script>
+        function openLightbox(image) {
+            var lightbox = document.querySelector(".lightbox");
+            var imageToShow = lightbox.querySelector("img");
+            imageToShow.src = image.src;
+            lightbox.style.display = "block";
+        }
+
+        function closeLightbox() {
+            var lightbox = document.querySelector(".lightbox");
+            lightbox.style.display = "none";
+        }
+
+        function setHandCursor(image) {
+            image.style.cursor = "pointer";
+        }
+    </script>
+
+
+<p style="text-align: justify;"><b>interpretation of the contingency table: </b>This table informs us of the distribution between the frequency of student salaried work and
+academic success. We can first note that we reject the hypothesis of non-autocorrelation with
+the validation of the first semester for the variables "Full-time student salaried work" at the
+5% threshold, and "More than half time student salaried work" at the 1% threshold. 82.53%
+of the students with a full-time job validated their first semester. Contrary to what we might
+have thought, having a full-time student job seems to be beneficial for academic success. It
+even seems to be more beneficial to have a full-time job than a more than half-time job where
+the success rate is only 75.58%. For the other variables, the hypothesis of no autocorrelation
+with the validation of the semester is accepted according to the chi-square test. It is therefore
+difficult to draw conclusions on these variables and we must remain vigilant with regard to
+these results following reverse causality and as science says, correlation is not causality. </p>
+<h5>Econometric study:</h5>
+
+
+
+    <title>Afficher une image en grand avec Lightbox et un curseur personnalisé</title>
+    <style>
+        /* Styles pour la lightbox */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+        }
+        .lightbox img {
+            display: block;
+            margin: 50px auto; /* Ajustez la marge pour centrer l'image */
+            max-width: 90%;
+            max-height: 80%;
+        }
+        /* Style pour le bouton de fermeture */
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+
+
+  <!-- Insérez l'image en utilisant la balise <img> avec les attributs onclick et onmouseover -->
+  <img src="/assets/as-reg.JPG" alt="Description de l&#x27;image" onclick="openLightbox(this)" onmouseover="setHandCursor(this)">
+  <!-- Lightbox -->
+  <div class="lightbox" onclick="closeLightbox()">
+        <span class="close-btn">×</span>
+        <img src="" alt="Image en grand">
+    </div>
+   <!-- Script JavaScript pour gérer la lightbox et le curseur personnalisé -->
+   <script>
+        function openLightbox(image) {
+            var lightbox = document.querySelector(".lightbox");
+            var imageToShow = lightbox.querySelector("img");
+            imageToShow.src = image.src;
+            lightbox.style.display = "block";
+        }
+
+        function closeLightbox() {
+            var lightbox = document.querySelector(".lightbox");
+            lightbox.style.display = "none";
+        }
+
+        function setHandCursor(image) {
+            image.style.cursor = "pointer";
+        }
+    </script>
+
+
+<p style="text-align: justify;"><b>interpretation of the bivariate probit model: </b>For the bivariate probit model using the qlim procedure, we set up two simultaneous equations using all the control variables seen previously in the DATA section. One explains the effect of paid work on academic achievement, the other explains the effect of student social aid on paid work, which is shown in the Appendix. According to the positive and significant correlation coefficient we can deduce that our two models evolve simultaneously and have dependent behaviours. Scholarships therefore have an influence on whether or not the student goes into paid employment. At the mean point, receiving social aid will increase the probability of not doing paid work by 5.1 percentage points; and decrease the probability of doing paid work (regardless of how often it is done) by about 1.2 percentage points at the mean point, all other things being equal. In addition, the variable of interest: student paid work is significant this time, showing that the model does explain an effect of student paid work on academic success. We can see that as the frequency of student employment increases, the marginal effect decreases, and with quite large values. For example, holding a casual salaried job at mid-term reduces the probability of validating the first semester by 15.8 probability points on average compared to not holding a job at all, at the 1% threshold, all other things being equal. The marginal effect for full-time salaried 30 Internal employment is more than twice as high, at 34.7 points.</p>
+<p style="text-align: justify;">This study allowed me to clarify my vision concerning the potential causes of failure in the first semester of an academic year in higher education, regardless of the level and field of study. The bivariate probit model shows that student employment outside the university curriculum has a negative impact on the validation of the first semester, as the frequency of salaried work increases. The scholarship is a way for students to support themselves (food and housing) without having to earn money by working while studying. But some students escape the rule and work full time during their studies, which makes it difficult for them to keep up with their studies because they can only revise their courses in the evening after work. In order to increase the success rate of employed students, governmental measures should be adopted, such as adjusting school schedules for students in financial difficulty who are obliged to work, but also facilitating access to social aid, especially for foreign students who are new in the French administration.</p>
+					</div>
+				</div>
+			</main>
+		</div>
+		<aside class="astro-RCDZUQ3A">
+	<h2 class="astro-RCDZUQ3A">Interested in working together?</h2>
+	<a href="mailto:maxime.herve97@gmail.com" class="astro-BALV45LP">
+		Send Me a Message
+		<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256" aria-hidden="true" stroke="currentcolor" fill="currentcolor" style="--size:1.2em" class="astro-PATNJMLL">
+	<g class="astro-PATNJMLL"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M210.3 35.9 23.9 88.4a8 8 0 0 0-1.2 15l85.6 40.5a7.8 7.8 0 0 1 3.8 3.8l40.5 85.6a8 8 0 0 0 15-1.2l52.5-186.4a7.9 7.9 0 0 0-9.8-9.8Zm-99.4 109.2 45.2-45.2"/></g>
+	
+</svg>
+	</a>
+</aside>
+	</div>
+
+			<footer class="astro-SZ7XMLTE">
+	<div class="group astro-SZ7XMLTE">
+		<p class="astro-SZ7XMLTE">
+			Designed & Developed in Portland with <a href="https://astro.build/" class="astro-SZ7XMLTE">Astro</a>
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 256" aria-hidden="true" stroke="currentcolor" fill="currentcolor" style="--size:1.2em" class="astro-PATNJMLL">
+	<g class="astro-PATNJMLL"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M94.1 184.6c-11.4 33.9-56.6 33.9-56.6 33.9s0-45.2 33.9-56.6m124.5-56.5L128 173.3 82.7 128l67.9-67.9C176.3 34.4 202 34.7 213 36.3a7.8 7.8 0 0 1 6.7 6.7c1.6 11 1.9 36.7-23.8 62.4Z"/><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M184.6 116.7v64.6a8 8 0 0 1-2.4 5.6l-32.3 32.4a8 8 0 0 1-13.5-4.1l-8.4-41.9m11.3-101.9H74.7a8 8 0 0 0-5.6 2.4l-32.4 32.3a8 8 0 0 0 4.1 13.5l41.9 8.4"/></g>
+	
+</svg>
+		</p>
+		<p class="astro-SZ7XMLTE">&copy; 2023 Maxime HERVE</p>
+	</div>
+	<p class="socials astro-SZ7XMLTE">
+		<a href="https://www.linkedin.com/in/maxime-herve-05925a144/" class="astro-SZ7XMLTE"> Linkedin</a>
+	</p>
+</footer>
+		</div>
+
+		
+
+		
+	</body>
+</html>
